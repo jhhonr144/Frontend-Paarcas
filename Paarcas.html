@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
+  <title>Paarcas</title>
+  <meta name="description" content="Gestor de Compras">
+  <meta name="keywords" content="Encuentra tu producto">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="aquamarine.css" type="text/css">
+  <!-- Script: Make my navbar transparent when the document is scrolled to top -->
+  <script src="js/navbar-ontop.js"></script>
+  <!-- Script: Animated entrance -->
+  <script src="js/animate-in.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <!-- Cover -->
+  <nav class="navbar navbar-expand-md bg-secondary navbar-dark fixed-top border-danger">
+    <div class="container">
+      <a class="navbar-brand" href="#">PAARCAS</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categorias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Contáctenos</a>
+          </li>
+        </ul>
+        <form class="form-inline m-0">
+          <input class="form-control mr-2" type="text" placeholder="Buscar">
+          <button class="btn navbar-btn mx-2 text-black btn-outline-light" data-toggle="modal" type="button" data-target="#exampleModal"> Buscar </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="align-items-center d-flex cover section-aquamarine py-5" style="background-image: url(&quot;assets/Imagenes/157379-OUGQH9-859.jpg&quot;);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 align-self-center text-lg-left text-center">
+          <h1 class="mb-0 mt-5 display-4">GESTOR DE COMPRA</h1>
+          <p class="mb-5">Encuentra el producto que deseas facil y rapido</p>
+        </div>
+        <div class="col-lg-5 p-3">
+          <form class="p-4 bg-light" action="https://formspree.io/" method="post">
+            <h4 class="mb-4 text-center">Iniciar Sesión&nbsp;</h4>
+            <div class="form-group">
+              <label>Correo</label>
+              <input type="email" class="form-control" placeholder="Ingresar Correo"> </div>
+            <div class="form-group">
+              <label>Contraseña</label>
+              <input type="password" class="form-control" placeholder="Contraseña"> </div>
+            <button type="submit" class="btn mt-4 btn-block p-2 btn-primary">
+              <b>Entrar</b>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Intro -->
+  <!-- Gallery -->
+  <!-- Menu -->
+  <!-- Carousel reviews -->
+  <!-- Carousel venue -->
+  <div class="py-5" style="background-image: url('assets/Imagenes/140196-OSQAUW-214.jpg');" id="venue">
+    <div class="container">
+      <div class="row bg-primary animate-in-down">
+        <div class="p-4 col-md-6 align-self-center">
+          <h2>PAARCAS</h2>
+          <p class="my-4">&nbsp;Buscador de productos que agiliza los procesos de comparación y dirección de ubicación mostrando en tiempo real los precios en Distintos establecimientos comerciales en la ciudad de Valledupar. Logrando así que varios establecimientos
+            se unan a esta aplicación, para así mejorar su producción.</p>
+          <a href="#" class="btn mb-3 p-2 btn-light text-black btn-outline-light">Ver Productos</a>
+        </div>
+        <div class="p-0 col-md-6">
+          <div class="carousel slide" data-ride="carousel" id="carousel1">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid w-100" src="assets/Imagenes/foto.jpg" data-holder-rendered="true">
+                <div class="carousel-caption">
+                  <h3>Facil</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid w-100" src="assets/Imagenes/foto2.jpg" data-holder-rendered="true">
+                <div class="carousel-caption">
+                  <h3>Rapido</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid w-100" src="assets/Imagenes/261555-P4LN1F-501.jpg" data-holder-rendered="true">
+                <div class="carousel-caption">
+                  <h3>Sencillo</h3>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Registrese Por Favor</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img class="img-fluid d-block" src="assets/Imagenes/145416-OTSAQG-631.jpg"> </div>
+        <div class="modal-footer">
+            <button type="button" class="btn navbar-btn mx-2 text-black btnn-outline-light  " draggable="true" data-dismiss="modal">No Gracias</button>
+          <a href="#book" class="btn btn-primary" data-dismiss="modal">Registrame</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Events -->
+  <div class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="mb-4 text-primary text-center">Productos</h2>
+          <div class="row">
+            <div class="col-md-4 p-3">
+              <img class="img-fluid d-block w-100 mb-3" src="assets/Imagenes/zapato1.jpg">
+              <p class="lead text-muted mb-1">26 &nbsp;enero, 2018</p>
+              <h5 class="text-dark">NIKE</h5>
+              <p class="mb-3">20.000$</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> VER </button>
+            </div>
+            <div class="col-md-4 p-3">
+              <img class="img-fluid d-block w-100 mb-3" src="assets/Imagenes/images.jpg">
+              <p class="lead text-muted mb-1">30 &nbsp;Agosto, 2017</p>
+              <h5 class="">Vestidos rosa</h5>
+              <p class="mb-3">50.999$</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> VER </button>
+            </div>
+            <div class="col-md-4 p-3">
+              <img class="img-fluid d-block w-100 mb-3" src="assets/Imagenes/blusa.jpg">
+              <p class="lead text-muted mb-1">14 marzo, 2018</p>
+              <h5 class="">Blusa Apology</h5>
+              <p class="mb-3">59.950$</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> VER </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Parallax section -->
+  <div class="py-5 photo-overlay section-parallax" id="book" style="background-image: url(&quot;assets/Imagenes/makereservation_light.jpg&quot;);">
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-lg-6 mx-auto p-3 animate-in-down">
+          <form class="p-4 bg-light" method="post" action="https://formspree.io/">
+            <h4 class="mb-4 text-center">Registrate</h4>
+            <div class="form-group">
+              <label>Correo</label>
+              <input type="email" class="form-control" placeholder="Ingresar Correo"> </div>
+            <small class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
+            <div class="form-group">
+              <label>Contraseña</label>
+              <input type="password" class="form-control" placeholder="Contraseña nueva">
+              <label>Confirmar</label>
+              <input type="password" class="form-control" placeholder="Contraseña"> </div>
+            <button type="submit" class="btn mt-4 btn-block p-2 btn-primary">
+              <b>Crear Cuenta</b>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <div class="text-center bg-dark pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 p-3">
+          <h2 class="mb-4">Contacto</h2>
+          <p class="m-0">+57 3023423260</p>
+          <p>
+            <a href="mailto:paarcas@gmail.com" class="text-white">p</a>arcaas@gmail.com</p>
+        </div>
+        <div class="col-md-4 p-3">
+          <h2 class="mb-4">Ubicación</h2>
+          <p>
+            <a href="https://www.google.it/maps" target="blank" class="text-white">Sabanas Diagonal 21 No. 29-56 Sabanas
+              <br>Valledupar- Cesar -Colombia</a>
+          </p>
+        </div>
+        <div class="col-md-4 p-3">
+          <h2 class="mb-4">Horario</h2>
+          <p>10:00 - 12:00 &nbsp;&amp; &nbsp;02:00 - 04:00 pm
+            <br>
+            <br> </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <p class="text-center text-muted">© Copyright 2018 Pingendo - All rights reserved. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- JavaScript dependencies -->
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Script: Smooth scrolling between anchors in the same page -->
+  <script src="js/smooth-scroll.js"></script>
+ 
+</body>
+
+</html>
